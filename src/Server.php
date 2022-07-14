@@ -89,6 +89,9 @@ class Server {
                 case 'imap-tls':
                     $serverPart .= '/tls';
                     break;
+                case 'imap-notls':
+                    $serverPart .= '/notls';
+                    break;                    
                 default:
             }
         }
